@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    background-color: yellow;
+}
+
+h1{
+    text-align: center;
+    font-size: 40px;
+}
+
+.num{
+    font-size: 25px;
+    font-weight: 700;
+    text-align: right;
+}
+
+.num p{
+    margin-top: 100px;
+}
+
+.first{
+    width: 80%;
+    padding: 30px;
+    display: grid;
+    margin: auto;
+    grid-template-columns: auto auto auto auto;
+    column-gap: 50px;
+}
+.sec{
+    width: 80%;
+    padding: 30px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    column-gap: 50px;
+} 
+.Third{
+    width: 80%;
+    padding: 30px;
+    display: grid;
+    margin: auto;
+    grid-template-columns: auto auto auto auto;
+    column-gap: 50px;
+} 
+.Fourth{
+    width: 80%;
+    padding: 30px;
+    margin: auto;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    column-gap: 50px;
+}
+
+.block{
+    width: 100px;
+    height: 100px;
+}
+
+.fis{
+    animation-name: fisAni;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-direction:normal;  
+    background-color: rgb(59, 110, 203);
+}
+
+.Seca{
+    animation-name: secAni;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-direction:normal;
+    background-color: rgb(159, 126, 191);  
+}
+
+.Thrd{
+    animation-name: thrdecAni;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-direction:normal; 
+    background-color: rgb(59, 110, 203);
+}
+
+.aniTop{
+    animation-name: topAni;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-direction:normal; 
+    background-color: rgb(59, 110, 203);
+}
+
+.aniWith{
+    animation-name: wthAni;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-direction:normal; 
+    background-color: brown;
+}
+
+.anirot{
+    animation-name: rotAni;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    animation-direction:normal; 
+    background-color: green;
+}
+
+a h2{
+    text-align: center;
+    font-size: 40px;
+}
+
+@keyframes fisAni {
+  0%   {transform: skewX(-25deg);}
+  50%  {transform: skewX(25deg);}
+  100% {transform: skewX(-25deg);}
+}
+
+@keyframes secAni {
+  0%   {transform: skewY(-25deg);}
+  50%  {transform: skewY(25deg);}
+  100% {transform: skewY(-25deg);}
+}
+
+@keyframes thrdecAni {
+  0%   {transform:rotate(60deg);}
+  50%  {transform: rotate(150deg);}
+  100% {transform: rotate(360deg);}
+    
+}
+
+@keyframes topAni {
+    0%   {transform: scaleY(0);}
+    50%  {transform: scaleY(1);}
+    100% {transform: scaleY(0);}   
+}
+
+@keyframes wthAni {
+    0%   {transform: scaleX(0);}
+    50%  {transform: scaleX(1);}
+    100% {transform: scaleX(0);} 
+}
+
+@keyframes rotAni {
+    0%   {transform:rotate(90deg);}
+    25%  {transform:rotate(-90deg);}
+    50%  {transform: rotate(-180deg);}
+    75%  {transform:rotate(90deg);}
+    100% {transform: rotate(180deg);}
+      
+  }

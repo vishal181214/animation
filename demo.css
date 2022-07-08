@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    background-color: yellow;
+    text-align: center;
+}
+
+.block{
+    width: 80%;
+    margin: auto;
+    display: grid;
+    grid-template-columns: auto auto;
+    row-gap: 50px;
+}
+
+.square{
+    width: 150px;
+    height: 100px;
+    background-color: green;
+}
+
+.num{
+    text-align: right;
+    font-weight: bold;
+}
+
+.wid{
+    transition: width 5s;
+}
+
+.wid:hover{
+    width: 300px;
+}
+
+.sqwid{
+    transition: width 5s , height 5s;
+}
+
+.sqwid:hover{
+    width: 300px;
+    height: 300px;
+}
+
+a{
+    font-size: 25px;
+    font-weight: 600;
+}
